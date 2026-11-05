@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+    <!-- ESQUEMA DE CLASIFICACIÓN -->
+
+    <skos:ConceptScheme rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf">
+        <skos:prefLabel xml:lang="es">Taxonomía de contenidos educativos para recursos basados en juegos de mesa</skos:prefLabel>
+		
+		<!-- Áreas curriculares principales -->
+        <skos:hasTopConcept rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT"/>
+        <skos:hasTopConcept rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN"/>
+        <skos:hasTopConcept rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT"/>
+        <skos:hasTopConcept rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC"/>
+    </skos:ConceptScheme>
+
+    <!-- MATEMÁTICAS -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT">
+        <skos:prefLabel xml:lang="es">Matemáticas</skos:prefLabel>
+        <skos:notation>MAT</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+    </skos:Concept>
+
+    <!-- MAT.01 - Números y operaciones -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.01">
+        <skos:prefLabel xml:lang="es">Números y operaciones</skos:prefLabel>
+        <skos:notation>MAT.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.01.01">
+        <skos:prefLabel xml:lang="es">Cálculo mental y operaciones aritméticas</skos:prefLabel>
+        <skos:notation>MAT.01.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.01"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.01.02">
+        <skos:prefLabel xml:lang="es">Ordenación y series numéricas</skos:prefLabel>
+        <skos:notation>MAT.01.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.01"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.01.03">
+        <skos:prefLabel xml:lang="es">Comparación y composición de cantidades</skos:prefLabel>
+        <skos:notation>MAT.01.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.01"/>
+    </skos:Concept>
+
+    <!-- MAT.02 - Geometría y espacio -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02">
+        <skos:prefLabel xml:lang="es">Geometría y espacio</skos:prefLabel>
+        <skos:notation>MAT.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02.01">
+        <skos:prefLabel xml:lang="es">Posiciones y relaciones espaciales</skos:prefLabel>
+        <skos:notation>MAT.02.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02.02">
+        <skos:prefLabel xml:lang="es">Rotaciones y orientación de figuras</skos:prefLabel>
+        <skos:notation>MAT.02.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02.03">
+        <skos:prefLabel xml:lang="es">Composición y descomposición de figuras</skos:prefLabel>
+        <skos:notation>MAT.02.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02"/>
+    </skos:Concept>
+
+    <!-- MAT.03 - Magnitudes y medida -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.03">
+        <skos:prefLabel xml:lang="es">Magnitudes y medida</skos:prefLabel>
+        <skos:notation>MAT.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.03.01">
+        <skos:prefLabel xml:lang="es">Áreas y superficies</skos:prefLabel>
+        <skos:notation>MAT.03.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.03"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.03.02">
+        <skos:prefLabel xml:lang="es">Perímetros</skos:prefLabel>
+        <skos:notation>MAT.03.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.03"/>
+    </skos:Concept>
+
+    <!-- MAT.04 - Razonamiento y resolución de problemas -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.04">
+        <skos:prefLabel xml:lang="es">Razonamiento y resolución de problemas</skos:prefLabel>
+        <skos:notation>MAT.04</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.04.01">
+        <skos:prefLabel xml:lang="es">Clasificación por atributos</skos:prefLabel>
+        <skos:notation>MAT.04.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.04.02">
+        <skos:prefLabel xml:lang="es">Deducción lógica</skos:prefLabel>
+        <skos:notation>MAT.04.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.04.03">
+        <skos:prefLabel xml:lang="es">Resolución de problemas con restricciones</skos:prefLabel>
+        <skos:notation>MAT.04.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.04"/>
+    </skos:Concept>
+
+
+    <!-- LENGUA CASTELLANA Y LITERATURA -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN">
+        <skos:prefLabel xml:lang="es">Lengua Castellana y Literatura</skos:prefLabel>
+        <skos:notation>LEN</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+    </skos:Concept>
+
+    <!-- LEN.01 - Comunicación oral -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.01">
+        <skos:prefLabel xml:lang="es">Comunicación oral</skos:prefLabel>
+        <skos:notation>LEN.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.01.01">
+        <skos:prefLabel xml:lang="es">Expresión y descripción oral</skos:prefLabel>
+        <skos:notation>LEN.01.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.01"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.01.02">
+        <skos:prefLabel xml:lang="es">Narración oral</skos:prefLabel>
+        <skos:notation>LEN.01.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.01"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.01.03">
+        <skos:prefLabel xml:lang="es">Escucha y argumentación oral</skos:prefLabel>
+        <skos:notation>LEN.01.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.01"/>
+    </skos:Concept>
+
+    <!-- LEN.02 - Comprensión lectora -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.02">
+        <skos:prefLabel xml:lang="es">Comprensión lectora</skos:prefLabel>
+        <skos:notation>LEN.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.02.01">
+        <skos:prefLabel xml:lang="es">Comprensión e interpretación de textos</skos:prefLabel>
+        <skos:notation>LEN.02.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.02"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.02.02">
+        <skos:prefLabel xml:lang="es">Comprensión de instrucciones</skos:prefLabel>
+        <skos:notation>LEN.02.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.02"/>
+    </skos:Concept>
+
+    <!-- LEN.03 - Expresión escrita -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.03">
+        <skos:prefLabel xml:lang="es">Expresión escrita</skos:prefLabel>
+        <skos:notation>LEN.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.03.01">
+        <skos:prefLabel xml:lang="es">Creación de textos narrativos</skos:prefLabel>
+        <skos:notation>LEN.03.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.03"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.03.02">
+        <skos:prefLabel xml:lang="es">Descripción de personajes y situaciones</skos:prefLabel>
+        <skos:notation>LEN.03.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.03"/>
+    </skos:Concept>
+
+    <!-- LEN.04 - Conocimiento y uso de la lengua -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04">
+        <skos:prefLabel xml:lang="es">Conocimiento y uso de la lengua</skos:prefLabel>
+        <skos:notation>LEN.04</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04.01">
+        <skos:prefLabel xml:lang="es">Ampliación de vocabulario</skos:prefLabel>
+        <skos:notation>LEN.04.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04.02">
+        <skos:prefLabel xml:lang="es">Campos semánticos y asociaciones de palabras</skos:prefLabel>
+        <skos:notation>LEN.04.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04.03">
+        <skos:prefLabel xml:lang="es">Sinonimia, antonimia y polisemia</skos:prefLabel>
+        <skos:notation>LEN.04.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04.04">
+        <skos:prefLabel xml:lang="es">Definición y reformulación de conceptos</skos:prefLabel>
+        <skos:notation>LEN.04.04</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04.05">
+        <skos:prefLabel xml:lang="es">Ortografía</skos:prefLabel>
+        <skos:notation>LEN.04.05</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04.06">
+        <skos:prefLabel xml:lang="es">Formación de palabras</skos:prefLabel>
+        <skos:notation>LEN.04.06</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.04"/>
+    </skos:Concept>
+
+    <!-- LEN.05 - Educación literaria -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.05">
+        <skos:prefLabel xml:lang="es">Educación literaria</skos:prefLabel>
+        <skos:notation>LEN.05</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.05.01">
+        <skos:prefLabel xml:lang="es">Estructura y secuenciación del relato</skos:prefLabel>
+        <skos:notation>LEN.05.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.05"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.05.02">
+        <skos:prefLabel xml:lang="es">Personajes y sus motivaciones</skos:prefLabel>
+        <skos:notation>LEN.05.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.05"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.05.03">
+        <skos:prefLabel xml:lang="es">Lenguaje figurado y metáforas</skos:prefLabel>
+        <skos:notation>LEN.05.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#LEN.05"/>
+    </skos:Concept>	
+
+    <!-- CIENCIAS DE LA NATURALEZA -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT">
+        <skos:prefLabel xml:lang="es">Ciencias de la Naturaleza</skos:prefLabel>
+        <skos:notation>NAT</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+    </skos:Concept>
+
+    <!-- NAT.01 - Los seres vivos -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.01">
+        <skos:prefLabel xml:lang="es">Los seres vivos</skos:prefLabel>
+        <skos:notation>NAT.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.01.01">
+        <skos:prefLabel xml:lang="es">Clasificación y características de los seres vivos</skos:prefLabel>
+        <skos:notation>NAT.01.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.01"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.01.02">
+        <skos:prefLabel xml:lang="es">Alimentación y adaptación al medio</skos:prefLabel>
+        <skos:notation>NAT.01.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.01"/>
+    </skos:Concept>
+
+    <!-- NAT.02 - Ecosistemas y medioambiente -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.02">
+        <skos:prefLabel xml:lang="es">Ecosistemas y medioambiente</skos:prefLabel>
+        <skos:notation>NAT.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.02.01">
+        <skos:prefLabel xml:lang="es">Hábitats y biodiversidad</skos:prefLabel>
+        <skos:notation>NAT.02.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.02"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.02.02">
+        <skos:prefLabel xml:lang="es">Relaciones entre seres vivos</skos:prefLabel>
+        <skos:notation>NAT.02.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.02"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.02.03">
+        <skos:prefLabel xml:lang="es">Conservación y protección del medioambiente</skos:prefLabel>
+        <skos:notation>NAT.02.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.02"/>
+    </skos:Concept>
+
+    <!-- NAT.03 - El ser humano y la salud -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.03">
+        <skos:prefLabel xml:lang="es">El ser humano y la salud</skos:prefLabel>
+        <skos:notation>NAT.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.03.01">
+        <skos:prefLabel xml:lang="es">Enfermedades infecciosas y prevención</skos:prefLabel>
+        <skos:notation>NAT.03.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.03"/>
+    </skos:Concept>
+
+    <!-- NAT.04 - La Tierra y las condiciones ambientales -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.04">
+        <skos:prefLabel xml:lang="es">La Tierra y las condiciones ambientales</skos:prefLabel>
+        <skos:notation>NAT.04</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.04.01">
+        <skos:prefLabel xml:lang="es">Atmósfera y clima</skos:prefLabel>
+        <skos:notation>NAT.04.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.04.02">
+        <skos:prefLabel xml:lang="es">Agua y condiciones para la vida</skos:prefLabel>
+        <skos:notation>NAT.04.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.04"/>
+    </skos:Concept>
+
+    <!-- NAT.05 - Materia, energía y tecnología -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.05">
+        <skos:prefLabel xml:lang="es">Materia, energía y tecnología</skos:prefLabel>
+        <skos:notation>NAT.05</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.05.01">
+        <skos:prefLabel xml:lang="es">Fuerzas y movimiento</skos:prefLabel>
+        <skos:notation>NAT.05.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.05"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.05.02">
+        <skos:prefLabel xml:lang="es">Máquinas y sistemas tecnológicos</skos:prefLabel>
+        <skos:notation>NAT.05.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#NAT.05"/>
+    </skos:Concept>
+
+    <!-- CIENCIAS SOCIALES -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC">
+        <skos:prefLabel xml:lang="es">Ciencias Sociales</skos:prefLabel>
+        <skos:notation>SOC</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+    </skos:Concept>
+
+    <!-- SOC.01 - Historia y tiempo histórico -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.01">
+        <skos:prefLabel xml:lang="es">Historia y tiempo histórico</skos:prefLabel>
+        <skos:notation>SOC.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.01.01">
+        <skos:prefLabel xml:lang="es">Formas de vida y organización de las sociedades</skos:prefLabel>
+        <skos:notation>SOC.01.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.01"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.01.02">
+        <skos:prefLabel xml:lang="es">Cambios y acontecimientos históricos</skos:prefLabel>
+        <skos:notation>SOC.01.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.01"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.01.03">
+        <skos:prefLabel xml:lang="es">Patrimonio histórico y cultural</skos:prefLabel>
+        <skos:notation>SOC.01.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.01"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.01.04">
+        <skos:prefLabel xml:lang="es">Análisis e interpretación de información histórica</skos:prefLabel>
+        <skos:notation>SOC.01.04</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.01"/>
+    </skos:Concept>
+
+    <!-- SOC.02 - Geografía y representación del espacio -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.02">
+        <skos:prefLabel xml:lang="es">Geografía y representación del espacio</skos:prefLabel>
+        <skos:notation>SOC.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.02.01">
+        <skos:prefLabel xml:lang="es">Localización geográfica y orientación</skos:prefLabel>
+        <skos:notation>SOC.02.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.02"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.02.02">
+        <skos:prefLabel xml:lang="es">Interpretación de mapas y planos</skos:prefLabel>
+        <skos:notation>SOC.02.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.02"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.02.03">
+        <skos:prefLabel xml:lang="es">Geografía física y política</skos:prefLabel>
+        <skos:notation>SOC.02.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.02"/>
+    </skos:Concept>
+
+    <!-- SOC.03 - Actividades económicas y recursos -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.03">
+        <skos:prefLabel xml:lang="es">Actividades económicas y recursos</skos:prefLabel>
+        <skos:notation>SOC.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.03.01">
+        <skos:prefLabel xml:lang="es">Recursos naturales, producción y distribución</skos:prefLabel>
+        <skos:notation>SOC.03.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.03"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.03.02">
+        <skos:prefLabel xml:lang="es">Comercio e intercambio</skos:prefLabel>
+        <skos:notation>SOC.03.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.03"/>
+    </skos:Concept>
+
+    <!-- SOC.04 - Sociedad y organización del territorio -->
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.04">
+        <skos:prefLabel xml:lang="es">Sociedad y organización del territorio</skos:prefLabel>
+        <skos:notation>SOC.04</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.04.01">
+        <skos:prefLabel xml:lang="es">Asentamientos humanos y urbanización</skos:prefLabel>
+        <skos:notation>SOC.04.01</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.04.02">
+        <skos:prefLabel xml:lang="es">Transportes y comunicaciones</skos:prefLabel>
+        <skos:notation>SOC.04.02</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.04"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.04.03">
+        <skos:prefLabel xml:lang="es">Cooperación y problemas globales</skos:prefLabel>
+        <skos:notation>SOC.04.03</skos:notation>
+        <skos:inScheme rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf"/>
+        <skos:broader rdf:resource="https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.04"/>
+    </skos:Concept>
+</rdf:RDF>
