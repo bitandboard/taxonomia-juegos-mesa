@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <general>
+    <title>
+      <string language="es">Cooperación ante problemas globales mediante Pandemic</string>
+    </title>
+    <language>es</language>
+    <description>
+      <string language="es">Actividad didáctica basada en una partida guiada de Pandemic. El alumnado acuerda prioridades, coordina acciones entre jugadores y reflexiona sobre cómo la colaboración contribuye a afrontar problemas de alcance global.</string>
+    </description>
+    <keyword>
+      <string language="es">Pandemic</string>
+    </keyword>
+    <keyword>
+      <string language="es">Cooperación</string>
+    </keyword>
+    <keyword>
+      <string language="es">Problemas globales</string>
+    </keyword>
+    <keyword>
+      <string language="es">Toma de decisiones</string>
+    </keyword>
+    <coverage>
+      <string language="es">Educación Primaria</string>
+    </coverage>
+    <structure>
+      <source>LOMv1.0</source>
+      <value>atomic</value>
+    </structure>
+    <aggregationLevel>
+      <source>LOMv1.0</source>
+      <value>1</value>
+    </aggregationLevel>
+  </general>
+  <classification>
+    <purpose>
+      <source>LOMv1.0</source>
+      <value>discipline</value>
+    </purpose>
+    <taxonPath>
+      <source>
+        <string language="es">Taxonomía de contenidos educativos para recursos basados en juegos de mesa</string>
+      </source>
+      <taxon>
+        <id>https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC</id>
+        <entry>
+          <string language="es">Ciencias Sociales</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.04</id>
+        <entry>
+          <string language="es">Sociedad y organización del territorio</string>
+        </entry>
+      </taxon>
+      <taxon>
+        <id>https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#SOC.04.03</id>
+        <entry>
+          <string language="es">Cooperación y problemas globales</string>
+        </entry>
+      </taxon>
+    </taxonPath>
+    <description>
+      <string language="es">Actividad educativa del área de Ciencias Sociales centrada en la cooperación y los problemas globales. Mediante el juego Pandemic, el alumnado trabaja en equipo y toma decisiones conjuntas para hacer frente a una amenaza mundial.</string>
+    </description>
+    <keyword>
+      <string language="es">Pandemic</string>
+    </keyword>
+    <keyword>
+      <string language="es">Cooperación</string>
+    </keyword>
+    <keyword>
+      <string language="es">Problemas globales</string>
+    </keyword>
+    <keyword>
+      <string language="es">Toma de decisiones</string>
+    </keyword>
+  </classification>
+</lom>

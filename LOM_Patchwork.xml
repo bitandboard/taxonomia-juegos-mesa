@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lom xmlns="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<general><title><string language="es">Geometría y orientación espacial mediante Patchwork</string>
+</title>
+<language>es</language>
+<description><string language="es">Actividad didáctica basada en el juego de mesa Patchwork para trabajar contenidos de geometría mediante la colocación, rotación y combinación de piezas.</string>
+</description>
+<keyword><string language="es">Geometría</string>
+</keyword>
+<keyword><string language="es">Orientación espacial</string>
+</keyword>
+<keyword><string language="es">Rotaciones</string>
+</keyword>
+<keyword><string language="es">Figuras geométricas</string>
+</keyword>
+<coverage><string language="es">Educación Primaria</string>
+</coverage>
+<structure><source>LOMv1.0</source>
+<value>atomic</value></structure>
+<aggregationLevel><source>LOMv1.0</source>
+<value>1</value></aggregationLevel>
+</general>
+<classification><purpose><source>LOMv1.0</source>
+<value>discipline</value></purpose>
+<taxonPath><source><string language="es">Taxonomía de contenidos educativos para recursos basados en juegos de mesa</string>
+</source>
+<taxon>
+<id>https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT</id>
+<entry><string language="es">Matemáticas</string>
+</entry>
+</taxon>
+<taxon>
+<id>https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02</id>
+<entry><string language="es">Geometría y espacio</string>
+</entry>
+</taxon>
+<taxon>
+<id>https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02.02</id>
+<entry><string language="es">Rotaciones y orientación de figuras</string>
+</entry>
+</taxon>
+</taxonPath>
+<description><string language="es">Actividad educativa del área de Matemáticas centrada en la geometría y el razonamiento espacial. Mediante la colocación de piezas del juego Patchwork, se trabajan las rotaciones y la orientación de figuras geométricas.</string>
+</description>
+<keyword><string language="es">Geometría</string>
+</keyword>
+<keyword><string language="es">Orientación espacial</string>
+</keyword>
+<keyword><string language="es">Rotaciones</string>
+</keyword>
+<keyword><string language="es">Figuras geométricas</string>
+</keyword>
+</classification>
+</lom>
