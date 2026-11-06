@@ -1,8 +1,132 @@
-<!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Taxonomía educativa basada en juegos de mesa · Bit & Board</title><style>
-:root{font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#243049;background:#f4f6fa}body{margin:0}header{background:#172b4d;color:white;padding:3.5rem max(1.5rem,calc((100vw - 880px)/2))}header h1{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.2;margin:.3rem 0}header p{color:#d6e4f7;max-width:720px}main{max-width:880px;margin:2.5rem auto;padding:0 1.5rem}section{background:white;padding:1.6rem 2rem;margin-bottom:1.25rem;border-radius:13px;box-shadow:0 3px 18px #2430490b}h2{margin-top:0;font-size:1.35rem}a{color:#1558a5}a.button{display:inline-block;text-decoration:none;background:#175aa3;color:white;border-radius:7px;padding:.75rem 1rem;margin:.4rem .4rem .4rem 0}a.button.alt{background:#eef4fc;color:#174d80}code{overflow-wrap:anywhere;background:#eef2f7;padding:.1rem .3rem;border-radius:3px}footer{color:#606c7f;font-size:.92rem;padding:1rem 0 3rem}ul{line-height:1.8}</style></head><body>
-<header><p>METADATOS EDUCATIVOS · IEEE LOM + SKOS</p><h1>Taxonomía de contenidos educativos para recursos basados en juegos de mesa</h1><p>Clasificación de actividades educativas por el contenido que trabajan, con un ejemplo de aplicación en la categoría 9 (Classification) de un registro LOM.</p></header>
-<main><section><h2>Archivos del proyecto</h2><p><a class="button" href="taxonomia-juegos-mesa.rdf">Consultar taxonomía SKOS (RDF)</a><a class="button alt" href="LOM_Patchwork_Geometria.xml">Consultar registro LOM de Patchwork (XML)</a></p><p>Ambos archivos se pueden abrir o descargar desde el navegador, dependiendo de su configuración.</p></section>
-<section><h2>Organización de la taxonomía</h2><p>La clasificación se estructura en tres niveles: área curricular → bloque → contenido o habilidad. Las áreas contempladas son:</p><ul><li>Matemáticas</li><li>Lengua Castellana y Literatura</li><li>Ciencias de la Naturaleza</li><li>Ciencias Sociales</li></ul><p>Los términos describen contenidos educativos abordables mediante actividades basadas en juegos de mesa, no las temáticas de los juegos.</p></section>
-<section><h2>Ejemplo: Patchwork</h2><p>El registro LOM clasifica una actividad didáctica sobre rotaciones y orientación espacial en la ruta:</p><p><strong>Matemáticas → Geometría y espacio → Rotaciones y orientación de figuras.</strong></p><p>La categoría 9 del LOM usa las mismas URI que identifican estos conceptos en SKOS. Por ejemplo:</p><p><code>https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02.02</code></p><p>El fragmento <code>#MAT.02.02</code> identifica el concepto RDF. No implica que el servidor muestre automáticamente una página HTML independiente para él.</p></section>
-<footer>Trabajo académico · Taxonomía educativa basada en juegos de mesa.</footer></main></body></html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taxonomía educativa basada en juegos de mesa · Bit & Board</title>
+    <style>
+        :root {
+            font-family: system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+            color: #243049;
+            background: #f4f6fa;
+        }
+        body {
+            margin: 0;
+        }
+        header {
+            background: #172b4d;
+            color: white;
+            padding: 3.5rem max(1.5rem, calc((100vw - 880px) / 2));
+        }
+        header h1 {
+            font-size: clamp(1.8rem, 4vw, 2.6rem);
+            line-height: 1.2;
+            margin: 0.3rem 0;
+        }
+        header p {
+            color: #d6e4f7;
+            max-width: 720px;
+        }
+        main {
+            max-width: 880px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
+        }
+        section {
+            background: white;
+            padding: 1.6rem 2rem;
+            margin-bottom: 1.25rem;
+            border-radius: 13px;
+            box-shadow: 0 3px 18px #2430490b;
+        }
+        h2 {
+            margin-top: 0;
+            font-size: 1.35rem;
+        }
+        a {
+            color: #1558a5;
+        }
+        a.button {
+            display: inline-block;
+            text-decoration: none;
+            background: #175aa3;
+            color: white;
+            border-radius: 7px;
+            padding: 0.75rem 1rem;
+            margin: 0.4rem 0.4rem 0.4rem 0;
+        }
+        a.button.alt {
+            background: #eef4fc;
+            color: #174d80;
+        }
+        code {
+            overflow-wrap: anywhere;
+            background: #eef2f7;
+            padding: 0.1rem 0.3rem;
+            border-radius: 3px;
+        }
+        footer {
+            color: #606c7f;
+            font-size: 0.92rem;
+            padding: 1rem 0 3rem;
+        }
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>METADATOS EDUCATIVOS · IEEE LOM + SKOS</p>
+        <h1>Taxonomía de contenidos educativos para recursos basados en juegos de mesa</h1>
+        <p>Clasificación de actividades educativas por el contenido que trabajan, con cuatro ejemplos de aplicación en la categoría 9 (Classification) de registros LOM.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Archivos del proyecto</h2>
+            <p>
+                <a class="button" href="taxonomia-juegos-mesa.rdf">Consultar taxonomía SKOS (RDF)</a>
+            </p>
+            <h3>Ejemplos de registros LOM</h3>
+            <ul>
+                <li><a href="LOM_Patchwork_Geometria.xml">Matemáticas — Patchwork</a></li>
+                <li><a href="LOM_Dixit_Lenguaje_Figurado.xml">Lengua Castellana y Literatura — Dixit</a></li>
+                <li><a href="LOM_Wingspan_Habitats_Biodiversidad.xml">Ciencias de la Naturaleza — Wingspan</a></li>
+                <li><a href="LOM_Pandemic_Cooperacion_Global.xml">Ciencias Sociales — Pandemic</a></li>
+            </ul>
+            <p>Los archivos pueden visualizarse o descargarse desde el navegador, dependiendo de su configuración.</p>
+        </section>
+        <section>
+            <h2>Organización de la taxonomía</h2>
+            <p>La clasificación se estructura en tres niveles: área curricular → bloque → contenido o habilidad.</p>
+            <p>Las áreas contempladas son:</p>
+            <ul>
+                <li>Matemáticas</li>
+                <li>Lengua Castellana y Literatura</li>
+                <li>Ciencias de la Naturaleza</li>
+                <li>Ciencias Sociales</li>
+            </ul>
+            <p>Los términos describen contenidos educativos abordables mediante actividades basadas en juegos de mesa, no las temáticas de los juegos.</p>
+        </section>
+        <section>
+            <h2>Aplicación de la taxonomía en LOM</h2>
+            <p>Se han elaborado cuatro registros de metadatos IEEE LOM, correspondientes a actividades educativas basadas en juegos de mesa de diferentes áreas curriculares.</p>
+            <p>Cada registro utiliza la categoría 9 (Classification) para establecer una ruta de clasificación basada en los conceptos definidos en la taxonomía SKOS.</p>
+            <h3>Ejemplos de clasificación</h3>
+            <ul>
+                <li><strong>Patchwork:</strong> Matemáticas → Geometría y espacio → Rotaciones y orientación de figuras.</li>
+                <li><strong>Dixit:</strong> Lengua Castellana y Literatura → Educación literaria → Lenguaje figurado y metáforas.</li>
+                <li><strong>Wingspan:</strong> Ciencias de la Naturaleza → Ecosistemas y medioambiente → Hábitats y biodiversidad.</li>
+                <li><strong>Pandemic:</strong> Ciencias Sociales → Sociedad y organización del territorio → Cooperación y problemas globales.</li>
+            </ul>
+            <h3>Vinculación entre LOM y SKOS</h3>
+            <p>Los registros LOM utilizan las mismas URI que identifican los conceptos en la taxonomía SKOS.</p>
+            <p>Por ejemplo, la clasificación de Patchwork incluye el siguiente identificador:</p>
+            <p><code>https://bitandboard.github.io/taxonomia-juegos-mesa/taxonomia-juegos-mesa.rdf#MAT.02.02</code></p>
+            <p>El fragmento <code>#MAT.02.02</code> identifica el concepto «Rotaciones y orientación de figuras» dentro de la taxonomía RDF.</p>
+            <p>Esta correspondencia permite utilizar la taxonomía SKOS como vocabulario de clasificación de los recursos educativos descritos mediante LOM.</p>
+        </section>
+        <footer>Trabajo académico · Taxonomía educativa basada en juegos de mesa.</footer>
+    </main>
+</body>
+</html>
